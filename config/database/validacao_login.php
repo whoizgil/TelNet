@@ -1,4 +1,5 @@
 <?php
+session_start();
 include('conexaosql.php');
 
 if (isset($_POST['login']) && isset($_POST['senha'])) {
@@ -17,6 +18,7 @@ if (isset($_POST['login']) && isset($_POST['senha'])) {
             exit();
         }
 
+
         $sql_code = "SELECT CPF, Nome, Email, Nome_Materno, Celular, Tel_Fixo, Endereco, Login, Data_Nascimento, Sexo, Senha, Tipo, Statuses, CEP FROM usuario WHERE login = '$login' AND senha = '$senha'";
         $sql_query = $mysqli->query($sql_code) or die("Falha na execução do código SQL:" . $mysqli->error);
         $usuario = $sql_query->fetch_assoc();
@@ -34,7 +36,6 @@ if (isset($_POST['login']) && isset($_POST['senha'])) {
 
 
                 if ($tipousuario == $tipo) {
-                    session_start();
                     $_SESSION['nome'] = $usuario['Nome'];
                     $_SESSION['senha'] = $senha;
                     $_SESSION['login'] = $login;

@@ -52,7 +52,11 @@
 <body>
     <section class="container-login">
         <div class="div-logo">
-            <a class="ancora-logo" href="../../public/main.php"><img src="https://es.logodownload.org/wp-content/uploads/2018/12/claro-logo-1-11-768x288.png" alt="logo claro" /></a>
+            <a class="ancora-logo" href="../../public/main.php"><img src="../img/telnet1.png" alt="logo telnet" style="
+    width: 100%;
+    height: 125px;
+    margin-top: -35px;
+"></a>
         </div>
         <h1 class="titulo-erro">Erro de Autenticação</h1>
         <p class="mensagem-erro">Ocorreu um erro de autenticação. Verifique suas credenciais e tente novamente.</p>

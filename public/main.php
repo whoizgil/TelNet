@@ -32,7 +32,6 @@ if (!isset($_SESSION['login']) || !isset($_SESSION['2fa']) || $_SESSION['2fa'] !
       background-color: #CE2D2D;
 
     }
-
   </style>
 
 </head>
@@ -51,7 +50,8 @@ if (!isset($_SESSION['login']) || !isset($_SESSION['2fa']) || $_SESSION['2fa'] !
               display: block;
               margin: auto;
               transition: background-color 300ms;
-            " src="https://seeklogo.com/images/C/Claro-logo-73D218C14E-seeklogo.com.png" /></a>
+              width: 550px;
+            " src="..\assets\img\telnet2.png" /></a>
     </div>
     <div class="div-waves">
       <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">

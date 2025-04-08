@@ -330,6 +330,12 @@
     height: 2.6rem;
   }
 
+  .ancora-logo img {
+    width: 100%;
+    height: 125px;
+    margin-top: -35px;
+  }
+
   .div-logo {
     margin-top: 10px;
     display: flex;

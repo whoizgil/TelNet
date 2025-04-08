@@ -84,7 +84,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <body>
     <div class="container-2fa">
         <div class="div-logo-2fa">
-            <a class="ancora-logo-2fa" href="main.php"><img src="https://es.logodownload.org/wp-content/uploads/2018/12/claro-logo-1-11-768x288.png" alt="logo claro" /></a>
+            <a class="ancora-logo-2fa" href="main.php">
+                <img src="../assets/img/telnet1.png" alt="logo telnet" style="
+    width: 100%;
+    height: 125px;
+    margin-top: -35px;
+">
+            </a>
         </div>
         <h1>Verificação de Duas Etapas</h1>
         <p class="pergunta-2fa">Pergunta: <?php echo $pergunta_aleatoria; ?></p>

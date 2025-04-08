@@ -19,7 +19,11 @@ if (isset($_SESSION['2fa']) && $_SESSION['2fa'] == true) {
 <body>
     <section class="container">
         <div class="div-logo">
-            <a class="ancora-logo" href="main.php"><img class="logo" src="https://es.logodownload.org/wp-content/uploads/2018/12/claro-logo-1-11-768x288.png" alt="logo claro" /></a>
+            <a class="ancora-logo" href="main.php"><img src="..\assets\img\telnet1.png" alt="logo telnet" style="
+    width: 100%;
+    height: 125px;
+    margin-top: -35px;
+"></a>
         </div>
         <form id="formulario" action="../config/database/entrada_de_dados.php" method="post">
             <h1>Cadastro</h1>

@@ -23,7 +23,11 @@ if (isset($_SESSION['2fa']) && $_SESSION['2fa'] == true) {
 <body>
   <section class="container-login">
     <div class="div-logo">
-      <a class="ancora-logo" href="./public/main.php"><img src="https://es.logodownload.org/wp-content/uploads/2018/12/claro-logo-1-11-768x288.png" alt="logo claro" /></a>
+      <a class="ancora-logo" href="./public/main.php"><img src="assets\img\telnet1.png" alt="logo telnet" style="
+    width: 100%;
+    height: 125px;
+    margin-top: -35px;
+"></a>
     </div>
     <form id="formulario" autocomplete="off" action="./config/database/validacao_login.php" method="POST" onsubmit="return validarFormulario()">
       <h1 id="myH1">Login</h1>
@@ -42,7 +46,7 @@ if (isset($_SESSION['2fa']) && $_SESSION['2fa'] == true) {
 
       <div id="esqsenha">
         <label for="tipoUsuario">Tipo de Usuário:</label>
-        <select name="tipousuario" id="tipoUsuario" name="tipoUsuario" style="border-radius: 10px; background-color: #cecece;" required>
+        <select name="tipousuario" id="tipoUsuario" style="border-radius: 10px; background-color: #cecece;" required>
           <option value="m">Master</option>
           <option value="c">Comum</option>
         </select>

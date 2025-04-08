@@ -116,7 +116,7 @@
             echo '<a class="logout" href="../config/database/update_pass.php">Alterar sua senha</a>';
         } ?>
         <a class="logout" href="../config/database/logout.php">Sair da sua conta</a>
-        <p>&copy;2023 Claro | Todos Os Direitos Reservados</p>
+        <p>&copy;2025 TelNet | Todos Os Direitos Reservados</p>
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

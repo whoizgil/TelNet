@@ -23,12 +23,14 @@
 
     /*Styling logo*/
     .logo-menu {
-      padding: 1vh 1vw;
-      text-align: center;
-      display: flex;
-      align-items: center;
-      padding-top: 16px;
+      width: 150px;
+      /* ou o valor que quiser */
+      padding-right: 15px;
+      display: block;
+      margin: 0;
+      /* remove o auto que estava centralizando */
     }
+
 
     /*Styling Links*/
     .nav-links-menu {
@@ -92,7 +94,7 @@
 
     /*Stying for small screens*/
     @media screen and (max-width: 800px) {
-      nav-menu {
+      .nav-links-menu {
         position: fixed;
         z-index: 3;
       }
@@ -230,9 +232,11 @@
     <div class="logo-menu">
       <a href="main.php"><img style="
               display: block;
-              margin: auto;
+              margin-top: <?= basename($_SERVER['PHP_SELF']) == 'consulta.php' ? '-25px' : '-40px' ?>;
+              margin-left: <?= basename($_SERVER['PHP_SELF']) == 'consulta.php' ? '20px' : 'auto' ?>;
               transition: background-color 300ms;
-            " src="https://www.claro.com.br/files/104379/x/4e0cdf35df/claro.svg/m/filters:quality(75)" /></a>
+              height: 120px;
+            " src="..\assets\img\telnet1.png" /></a>
     </div>
     <div class="hamburger-menu">
       <div class="line1"></div>
