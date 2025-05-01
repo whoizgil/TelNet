@@ -129,21 +129,21 @@ if (!isset($_SESSION['login']) || !isset($_SESSION['2fa']) || $_SESSION['2fa'] !
       <img src="../assets/img/morgana_projeto.jpg" alt="Foto 1">
       <div class="info-card">
         <h3>Morgana</h3>
-        <p>Morgana é a visionária por trás da Claro, fundadora da empresa que transformou a maneira como nos conectamos. Com um olhar voltado para o futuro, ela acreditava que a comunicação poderia ser mais do que apenas uma troca de palavras - poderia ser uma ponte para unir pessoas. Sua paixão pela inovação tecnológica e sua visão empreendedora foram os pilares que deram vida à Claro, uma empresa que continua a moldar o mundo da telecomunicação.</p>
+        <p>Morgana é a visionária por trás da TelNet, fundadora da empresa que transformou a maneira como nos conectamos. Com um olhar voltado para o futuro, ela acreditava que a comunicação poderia ser mais do que apenas uma troca de palavras - poderia ser uma ponte para unir pessoas. Sua paixão pela inovação tecnológica e sua visão empreendedora foram os pilares que deram vida à TelNet, uma empresa que continua a moldar o mundo da telecomunicação.</p>
       </div>
     </div>
     <div class="card" id="card2">
       <img c src="../assets/img/syndra_projeto.jpg" alt="Foto 2">
       <div class="info-card">
         <h3>Syndra</h3>
-        <p>Syndra, a mulher à frente da Claro, assume a responsabilidade de liderar uma das maiores empresas de telecomunicações do mundo. Com habilidades notáveis de gestão e um profundo conhecimento do setor, ela guia a equipe da Claro rumo a uma trajetória de sucesso. A visão de Syndra é clara: proporcionar uma conectividade superior e inovações revolucionárias que atendam às necessidades em constante evolução de nossos clientes.</p>
+        <p>Syndra, a mulher à frente da TelNet, assume a responsabilidade de liderar uma das maiores empresas de telecomunicações do mundo. Com habilidades notáveis de gestão e um profundo conhecimento do setor, ela guia a equipe da TelNet rumo a uma trajetória de sucesso. A visão de Syndra é clara: proporcionar uma conectividade superior e inovações revolucionárias que atendam às necessidades em constante evolução de nossos clientes.</p>
       </div>
     </div>
     <div class="card" id="card3">
       <img src="../assets/img/evelynn_projeto.jpg" alt="Foto 3">
       <div class="info-card">
         <h3>Evelynn</h3>
-        <p>Evelynn é uma peça fundamental na equipe de desenvolvimento da Claro. Sua expertise técnica e criatividade são elementos cruciais para o aprimoramento contínuo dos serviços oferecidos pela empresa. Ela é apaixonada por desafios e está sempre buscando maneiras de melhorar a experiência dos usuários, garantindo que a Claro permaneça na vanguarda da inovação e ofereça soluções de alta qualidade para seus clientes.</p>
+        <p>Evelynn é uma peça fundamental na equipe de desenvolvimento da TelNet. Sua expertise técnica e criatividade são elementos cruciais para o aprimoramento contínuo dos serviços oferecidos pela empresa. Ela é apaixonada por desafios e está sempre buscando maneiras de melhorar a experiência dos usuários, garantindo que a TelNet permaneça na vanguarda da inovação e ofereça soluções de alta qualidade para seus clientes.</p>
       </div>
     </div>
   </div>
